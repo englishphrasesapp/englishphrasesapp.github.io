@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://englishphrasesapp.github.io/sitemap.xml
