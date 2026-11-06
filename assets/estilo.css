@@ -523,6 +523,7 @@ a:hover {
   font-weight: 850;
   letter-spacing: -0.038em;
   line-height: 1.08;
+  text-wrap: balance;
 }
 
 .section .lead {

@@ -3,6 +3,16 @@
 Site estático do aplicativo **English Phrases**, publicado pelo GitHub Pages em
 <https://englishphrasesapp.github.io/>.
 
+## Escopo de divulgação
+
+Nesta primeira fase, a landing page divulga apenas as versões **Android e iOS**.
+A política de privacidade continua cobrindo todas as plataformas do código, com
+uma nota de que a distribuição pública atual é mobile.
+
+A landing também deixa explícito que o app **exibe traduções já cadastradas ou
+importadas** e **não traduz frases automaticamente**; a IA local gera novas
+frases com tradução, mas não é um tradutor de frases existentes.
+
 ## Estrutura
 
 ```text
