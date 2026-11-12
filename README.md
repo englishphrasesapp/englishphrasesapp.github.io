@@ -35,6 +35,7 @@ frases com tradução, mas não é um tradutor de frases existentes.
 │       ├── visualizar-escuro.png / .webp
 │       └── *-en.png / .webp    # mesmas telas com a interface em inglês
 ├── 404.html
+├── app-ads.txt                # verificação do AdMob
 ├── robots.txt
 ├── sitemap.xml
 └── .nojekyll
@@ -42,6 +43,25 @@ frases com tradução, mas não é um tradutor de frases existentes.
 
 Não há build, dependências de JavaScript, fontes externas, cookies de
 rastreamento ou analytics. A página é HTML e CSS puros.
+
+## app-ads.txt
+
+O arquivo de verificação do AdMob fica na raiz do site:
+
+```text
+https://englishphrasesapp.github.io/app-ads.txt
+```
+
+Conteúdo:
+
+```text
+google.com, pub-3675443331836049, DIRECT, f08c47fec0942fa0
+```
+
+O site do desenvolvedor na ficha da loja deve ser
+`https://englishphrasesapp.github.io/` para o AdMob encontrar o arquivo.
+Ao trocar a conta ou o App ID do AdMob, atualize o publisher ID acima e faça
+novo commit/push. O GitHub Pages serve o arquivo como `text/plain`.
 
 ## Rodar localmente
 
